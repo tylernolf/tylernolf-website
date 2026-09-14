@@ -1,0 +1,61 @@
+<svg viewBox="0 0 480 520" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, sans-serif" role="img" aria-label="Inquiry Qualification and Routing Agent flow: a new inquiry triggers an autonomous AI agent that qualifies, routes, and notifies, producing a qualified and routed outcome with no human triage.">
+  <defs>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14" result="b"></feGaussianBlur>
+      <feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#9184d9"></path>
+    </marker>
+  </defs>
+
+  
+  <rect x="118" y="20" width="244" height="46" rx="23" fill="#20233a" stroke="#9184d9" stroke-width="1.5"></rect>
+  <path d="M223 34 l-9 15 h7 l-3 12 12 -16 h-7 z" fill="#d2cefd"></path>
+  <text x="248" y="48" fill="#e9e9ed" font-size="15" font-weight="600">New inquiry created</text>
+
+  
+  <line x1="240" y1="66" x2="240" y2="92" stroke="#9184d9" stroke-width="1.6" marker-end="url(#arrow)"></line>
+
+  
+  <rect x="44" y="98" width="392" height="292" rx="16" fill="#9184d9" opacity="0.16" filter="url(#glow)"></rect>
+  
+  <rect x="44" y="98" width="392" height="292" rx="16" fill="#232532" stroke="#9184d9" stroke-width="1.6"></rect>
+
+  
+  <rect x="68" y="120" width="34" height="30" rx="8" fill="#2b2741" stroke="#b5abfc" stroke-width="1.5"></rect>
+  <circle cx="78" cy="135" r="3" fill="#d2cefd"></circle><circle cx="92" cy="135" r="3" fill="#d2cefd"></circle>
+  <line x1="85" y1="112" x2="85" y2="120" stroke="#b5abfc" stroke-width="1.5"></line><circle cx="85" cy="110" r="2.4" fill="#b5abfc"></circle>
+  <text x="116" y="132" fill="#e9e9ed" font-size="17" font-weight="600">AI Agent</text>
+  <text x="116" y="149" fill="#9a93c9" font-size="11.5" letter-spacing="0.06em">RUNS AUTONOMOUSLY · NO HUMAN TRIAGE</text>
+
+  <line x1="68" y1="166" x2="412" y2="166" stroke="#e9e9ed" stroke-opacity="0.12" stroke-width="1"></line>
+
+  
+  <circle cx="84" cy="196" r="13" fill="#20233a" stroke="#9184d9" stroke-width="1.4"></circle>
+  <path d="M77 191 h14 l-5 6 v6 l-4 2 v-8 z" fill="#d2cefd"></path>
+  <text x="110" y="193" fill="#e9e9ed" font-size="14.5" font-weight="600">Qualify</text>
+  <text x="110" y="209" fill="#b6b8c6" font-size="12">Reads the inquiry; checks fit, intent &amp; priority</text>
+
+  
+  <circle cx="84" cy="248" r="13" fill="#20233a" stroke="#9184d9" stroke-width="1.4"></circle>
+  <path d="M84 241 v14 M84 255 l-5 -5 M84 255 l5 -5 M79 244 h10" stroke="#d2cefd" stroke-width="1.6" fill="none" stroke-linecap="round"></path>
+  <text x="110" y="245" fill="#e9e9ed" font-size="14.5" font-weight="600">Route</text>
+  <text x="110" y="261" fill="#b6b8c6" font-size="12">Assigns the right owner by rule-based logic</text>
+
+  
+  <circle cx="84" cy="300" r="13" fill="#20233a" stroke="#9184d9" stroke-width="1.4"></circle>
+  <path d="M84 293 c-4 0 -6 3 -6 7 v2 l-2 2 h16 l-2 -2 v-2 c0 -4 -2 -7 -6 -7 z M81 306 a3 3 0 0 0 6 0" fill="#d2cefd"></path>
+  <text x="110" y="297" fill="#e9e9ed" font-size="14.5" font-weight="600">Summarise &amp; notify</text>
+  <text x="110" y="313" fill="#b6b8c6" font-size="12">Posts a recap and @mentions the owner</text>
+
+  
+  <line x1="240" y1="390" x2="240" y2="418" stroke="#9184d9" stroke-width="1.6" marker-end="url(#arrow)"></line>
+
+  
+  <rect x="96" y="424" width="288" height="46" rx="23" fill="#2b2741" stroke="#b5abfc" stroke-width="1.5"></rect>
+  <path d="M150 447 l5 5 l9 -11" stroke="#d2cefd" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+  <text x="176" y="452" fill="#d2cefd" font-size="14.5" font-weight="600">Qualified &amp; routed — hands-off</text>
+
+  <text x="240" y="498" fill="#83879c" font-size="11.5" text-anchor="middle" letter-spacing="0.04em">Inquiry Qualification &amp; Routing Agent · pattern shown, no customer data</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg viewBox="0 0 460 430" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, sans-serif" role="img" aria-label="Inquiry Qualification and Routing Agent flow: a new inquiry triggers an autonomous AI agent that qualifies, routes, and notifies, producing a qualified and routed outcome with no human triage.">
+  <defs>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="13" result="b"></feGaussianBlur>
+      <feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#9184d9"></path>
+    </marker>
+  </defs>
+
+  
+  <rect x="115" y="16" width="230" height="46" rx="23" fill="#20233a" stroke="#9184d9" stroke-width="1.5"></rect>
+  <text x="230" y="44" fill="#e9e9ed" font-size="15" font-weight="600" text-anchor="middle">New inquiry created</text>
+
+  <line x1="230" y1="62" x2="230" y2="88" stroke="#9184d9" stroke-width="1.6" marker-end="url(#arrow)"></line>
+
+  
+  <rect x="34" y="94" width="392" height="244" rx="16" fill="#9184d9" opacity="0.15" filter="url(#glow)"></rect>
+  <rect x="34" y="94" width="392" height="244" rx="16" fill="#232532" stroke="#9184d9" stroke-width="1.6"></rect>
+
+  
+  <circle cx="230" cy="112" r="2.6" fill="#b5abfc"></circle>
+  <line x1="230" y1="114" x2="230" y2="119" stroke="#b5abfc" stroke-width="1.6"></line>
+  <rect x="214" y="119" width="32" height="25" rx="7" fill="#2b2741" stroke="#b5abfc" stroke-width="1.5"></rect>
+  <circle cx="224" cy="131" r="2.7" fill="#d2cefd"></circle><circle cx="236" cy="131" r="2.7" fill="#d2cefd"></circle>
+  <text x="230" y="164" fill="#e9e9ed" font-size="17" font-weight="600" text-anchor="middle">AI Agent</text>
+  <text x="230" y="180" fill="#9a93c9" font-size="10.5" letter-spacing="0.07em" text-anchor="middle">RUNS AUTONOMOUSLY · NO HUMAN TRIAGE</text>
+
+  <line x1="66" y1="194" x2="394" y2="194" stroke="#e9e9ed" stroke-opacity="0.12" stroke-width="1"></line>
+
+  
+  <rect x="72" y="206" width="30" height="26" rx="7" fill="#2b2741" stroke="#9184d9" stroke-width="1.3"></rect>
+  <text x="87" y="223" fill="#d2cefd" font-size="12.5" font-weight="600" text-anchor="middle">01</text>
+  <text x="116" y="217" fill="#e9e9ed" font-size="14" font-weight="600">Qualify</text>
+  <text x="116" y="231" fill="#b6b8c6" font-size="11.5">Reads the inquiry; checks fit, intent &amp; priority</text>
+
+  
+  <rect x="72" y="248" width="30" height="26" rx="7" fill="#2b2741" stroke="#9184d9" stroke-width="1.3"></rect>
+  <text x="87" y="265" fill="#d2cefd" font-size="12.5" font-weight="600" text-anchor="middle">02</text>
+  <text x="116" y="259" fill="#e9e9ed" font-size="14" font-weight="600">Route</text>
+  <text x="116" y="273" fill="#b6b8c6" font-size="11.5">Assigns the right owner by rule-based logic</text>
+
+  
+  <rect x="72" y="290" width="30" height="26" rx="7" fill="#2b2741" stroke="#9184d9" stroke-width="1.3"></rect>
+  <text x="87" y="307" fill="#d2cefd" font-size="12.5" font-weight="600" text-anchor="middle">03</text>
+  <text x="116" y="301" fill="#e9e9ed" font-size="14" font-weight="600">Summarise &amp; notify</text>
+  <text x="116" y="315" fill="#b6b8c6" font-size="11.5">Posts a recap and @mentions the owner</text>
+
+  <line x1="230" y1="338" x2="230" y2="364" stroke="#9184d9" stroke-width="1.6" marker-end="url(#arrow)"></line>
+
+  
+  <rect x="95" y="368" width="270" height="46" rx="23" fill="#2b2741" stroke="#b5abfc" stroke-width="1.5"></rect>
+  <text x="230" y="396" fill="#d2cefd" font-size="14" font-weight="600" text-anchor="middle">Qualified &amp; routed — hands-off</text>
+</svg>

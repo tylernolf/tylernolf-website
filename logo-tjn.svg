@@ -1,0 +1,14 @@
+<svg viewBox="0 0 260 148" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tyler J. Nolf monogram — TJN" shape-rendering="geometricPrecision">
+  
+  <g fill="#e9e9ed">
+    <polygon points="0,0 120,0 120,20 0,20"></polygon>
+    <polygon points="100,0 120,0 120,148 100,148"></polygon>
+    <polygon points="40,128 120,128 120,148 40,148"></polygon>
+  </g>
+  
+  <g fill="#9f7aff">
+    <polygon points="140,0 162,0 162,148 140,148"></polygon>
+    <polygon points="238,0 260,0 260,148 238,148"></polygon>
+    <polygon points="140,0 180,0 260,148 220,148"></polygon>
+  </g>
+</svg>
